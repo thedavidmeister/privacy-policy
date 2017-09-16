@@ -12,6 +12,7 @@ If you wish to use some or all of this please be aware:
 - The policy references Australian law
 - The policy almost certainly is NOT directly applicable to your project/company/organisation/whatever
 - It does come with an MIT license
+- Please seek your own legal advice before considering use of anything in this repository
 
 The reasons why this repository exists at all:
 
