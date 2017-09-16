@@ -18,4 +18,4 @@ The reasons why this repository exists at all:
 
 - The text content of the privacy policy is publicly visible on my projects anyway
 - It is convenient for me to share the policy between projects as a Java .jar
-- Other people may find an example implementation of a legal document as a Hoplon component interesting for educational purposes
+- Other people may find an example implementation of a legal document as a Hoplon component interesting for technical (not legal) reasons
