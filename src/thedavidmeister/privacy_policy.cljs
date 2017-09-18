@@ -20,7 +20,14 @@
           correction-turnaround
           complaint-acknowledgement-turnaround
           complaint-turnaround]}]
- (let [australian-privacy-principles (partial wheel.legalese.hoplon/legislature "Australian Privacy Principles")
+ (let [credit-enquiry-acknowledgement-turnaround (or credit-enquiry-acknowledgement-turnaround (constantly "7 days"))
+       credit-enquiry-turnaround (or credit-enquiry-turnaround (constantly "30 days"))
+       correction-acknowledgement-turnaround (or correction-acknowledgement-turnaround (constantly "7 days"))
+       correction-turnaround (or correction-turnaround (constantly "30 days"))
+       complaint-acknowledgement-turnaround (or complaint-acknowledgement-turnaround (constantly "7 days"))
+       complaint-turnaround (or complaint-turnaround (constantly "30 days"))
+
+       australian-privacy-principles (partial wheel.legalese.hoplon/legislature "Australian Privacy Principles")
        privacy-act (partial wheel.legalese.hoplon/legislature "Privacy Act 1988 (C’th)")
        oaic-link (partial wheel.link.hoplon/external "http://www.oaic.gov.au")
        oaic-phone (partial wheel.phone.hoplon/phone "1300 363 992")]
