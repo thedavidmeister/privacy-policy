@@ -4,6 +4,8 @@ This is the privacy policy that I use for a few of my companies/projects.
 
 It is packaged up for inclusion in [Hoplon](http://hoplon.io/) projects.
 
+An example is deployed to [Github Pages](https://thedavidmeister.github.io/privacy-policy/).
+
 If you wish to use some or all of this please be aware:
 
 - I am not a lawyer
