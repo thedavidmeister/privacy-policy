@@ -37,4 +37,6 @@
    :optimizations :advanced)
   (target
    :dir #{"gh-pages"})
-  (github-pages)))
+  (github-pages)
+  (build-jar)
+  (push-snapshot)))
