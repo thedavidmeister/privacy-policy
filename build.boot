@@ -9,7 +9,7 @@
  '[[org.clojure/clojure "1.9.0-alpha19"]
    [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]
    [hoplon "7.1.0-SNAPSHOT"]
-   [org.clojure/clojurescript "1.0.908" :scope "test"]
+   [org.clojure/clojurescript "1.9.908"]
    [adzerk/bootlaces "0.1.13" :scope "test"]])
 
 (task-options!
