@@ -4,6 +4,7 @@
   [javelin.core :as j]
   wheel.legalese.hoplon
   wheel.link.hoplon
+  wheel.phone.hoplon
   [cljs.test :refer-macros [deftest is]]))
 
 (h/defelem policy

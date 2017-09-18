@@ -14,11 +14,16 @@
  (h/body
   (let [ks [:entity-name
             :entity-description
+
+            :contact-details
+            :unsubscribe-email-address
+
             :credit-enquiry-acknowledgement-turnaround
             :credit-enquiry-turnaround
-            :privacy-email-address
             :correction-acknowledgement-turnaround
-            :correction-turnaround]]
+            :correction-turnaround
+            :complaint-acknowledgement-turnaround
+            :complaint-turnaround]]
    (thedavidmeister.privacy-policy/policy
     (zipmap
      ks
