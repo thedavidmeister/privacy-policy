@@ -10,6 +10,7 @@
    [thedavidmeister/boot-github-pages "0.1.0-SNAPSHOT"]
    [hoplon "7.1.0-SNAPSHOT"]
    [org.clojure/clojurescript "1.9.908"]
+   [adzerk/boot-cljs "2.1.3" :scope "test"]
    [adzerk/bootlaces "0.1.13" :scope "test"]])
 
 (task-options!
