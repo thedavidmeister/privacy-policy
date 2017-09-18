@@ -9,24 +9,24 @@ oops.helpers.get_constructor = (function oops$helpers$get_constructor(o){
 return (o["constructor"]);
 });
 oops.helpers.cljs_type_QMARK_ = (function oops$helpers$cljs_type_QMARK_(f){
-var and__8235__auto__ = goog.isObject(f);
-if(cljs.core.truth_(and__8235__auto__)){
-var and__8235__auto____$1 = cljs.core.not(oops.helpers.is_prototype_QMARK_(f));
-if(and__8235__auto____$1){
+var and__8234__auto__ = goog.isObject(f);
+if(cljs.core.truth_(and__8234__auto__)){
+var and__8234__auto____$1 = cljs.core.not(oops.helpers.is_prototype_QMARK_(f));
+if(and__8234__auto____$1){
 return (f["cljs$lang$type"]);
 } else {
-return and__8235__auto____$1;
+return and__8234__auto____$1;
 }
 } else {
-return and__8235__auto__;
+return and__8234__auto__;
 }
 });
 oops.helpers.cljs_instance_QMARK_ = (function oops$helpers$cljs_instance_QMARK_(value){
-var and__8235__auto__ = goog.isObject(value);
-if(cljs.core.truth_(and__8235__auto__)){
+var and__8234__auto__ = goog.isObject(value);
+if(cljs.core.truth_(and__8234__auto__)){
 return oops.helpers.cljs_type_QMARK_(oops.helpers.get_constructor(value));
 } else {
-return and__8235__auto__;
+return and__8234__auto__;
 }
 });
 oops.helpers.to_native_array = (function oops$helpers$to_native_array(coll){
@@ -40,8 +40,8 @@ if(!((items == null))){
 var item = cljs.core._first(items);
 arr.push(item);
 
-var G__19937 = cljs.core.next(items);
-items = G__19937;
+var G__23863 = cljs.core.next(items);
+items = G__23863;
 continue;
 } else {
 return arr;
@@ -55,10 +55,10 @@ oops.helpers.repurpose_error = (function oops$helpers$repurpose_error(error,msg,
 
 error.message = msg;
 
-var x19938 = error;
-x19938.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL;
+var x23864 = error;
+x23864.cljs$core$IPrintWithWriter$ = cljs.core.PROTOCOL_SENTINEL;
 
-x19938.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = ((function (x19938){
+x23864.cljs$core$IPrintWithWriter$_pr_writer$arity$3 = ((function (x23864){
 return (function (_obj,writer,opts){
 var _obj__$1 = this;
 cljs.core._write(writer,msg);
@@ -70,8 +70,8 @@ return cljs.core.pr_writer(info,writer,opts);
 } else {
 return null;
 }
-});})(x19938))
+});})(x23864))
 ;
 
-return x19938;
+return x23864;
 });

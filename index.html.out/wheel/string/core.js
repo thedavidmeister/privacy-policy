@@ -11,126 +11,126 @@ wheel.string.core._QMARK__QMARK_no_space = (function wheel$string$core$_QMARK__Q
 return cljs.test.test_var(wheel.string.core._QMARK__QMARK_no_space.cljs$lang$var);
 });
 wheel.string.core._QMARK__QMARK_no_space.cljs$lang$test = (function (){
-try{var values__18132__auto___24696 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space("a");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24808 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space("a");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"a");
-var result__18133__auto___24697 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24696);
-if(cljs.core.truth_(result__18133__auto___24697)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"a",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24696),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24809 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24808);
+if(cljs.core.truth_(result__18748__auto___24809)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"a",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24808),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"a",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24696);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"a",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24808);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24688){var t__18177__auto___24698 = e24688;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"a",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a")),cljs.core.cst$kw$actual,t__18177__auto___24698,cljs.core.cst$kw$message,null], null));
+}catch (e24800){var t__18792__auto___24810 = e24800;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"a",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a")),cljs.core.cst$kw$actual,t__18792__auto___24810,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto___24699 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space("a b");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24811 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space("a b");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto___24700 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24699);
-if(cljs.core.truth_(result__18133__auto___24700)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a b")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24699),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24812 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24811);
+if(cljs.core.truth_(result__18748__auto___24812)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a b")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24811),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a b")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24699);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a b")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24811);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24689){var t__18177__auto___24701 = e24689;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a b")),cljs.core.cst$kw$actual,t__18177__auto___24701,cljs.core.cst$kw$message,null], null));
+}catch (e24801){var t__18792__auto___24813 = e24801;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a b")),cljs.core.cst$kw$actual,t__18792__auto___24813,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto___24702 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space(" ab");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24814 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space(" ab");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto___24703 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24702);
-if(cljs.core.truth_(result__18133__auto___24703)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24702),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24815 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24814);
+if(cljs.core.truth_(result__18748__auto___24815)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24814),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24702);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24814);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24690){var t__18177__auto___24704 = e24690;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab")),cljs.core.cst$kw$actual,t__18177__auto___24704,cljs.core.cst$kw$message,null], null));
+}catch (e24802){var t__18792__auto___24816 = e24802;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab")),cljs.core.cst$kw$actual,t__18792__auto___24816,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto___24705 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space("ab ");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24817 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space("ab ");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto___24706 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24705);
-if(cljs.core.truth_(result__18133__auto___24706)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"ab ")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24705),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24818 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24817);
+if(cljs.core.truth_(result__18748__auto___24818)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"ab ")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24817),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"ab ")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24705);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"ab ")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24817);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24691){var t__18177__auto___24707 = e24691;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"ab ")),cljs.core.cst$kw$actual,t__18177__auto___24707,cljs.core.cst$kw$message,null], null));
+}catch (e24803){var t__18792__auto___24819 = e24803;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"ab ")),cljs.core.cst$kw$actual,t__18792__auto___24819,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto___24708 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space(" ab ");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24820 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space(" ab ");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto___24709 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24708);
-if(cljs.core.truth_(result__18133__auto___24709)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab ")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24708),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24821 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24820);
+if(cljs.core.truth_(result__18748__auto___24821)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab ")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24820),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab ")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24708);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab ")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24820);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24692){var t__18177__auto___24710 = e24692;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab ")),cljs.core.cst$kw$actual,t__18177__auto___24710,cljs.core.cst$kw$message,null], null));
+}catch (e24804){var t__18792__auto___24822 = e24804;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," ab ")),cljs.core.cst$kw$actual,t__18792__auto___24822,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto___24711 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space("a  b");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24823 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space("a  b");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto___24712 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24711);
-if(cljs.core.truth_(result__18133__auto___24712)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a  b")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24711),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24824 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24823);
+if(cljs.core.truth_(result__18748__auto___24824)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a  b")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24823),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a  b")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24711);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a  b")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24823);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24693){var t__18177__auto___24713 = e24693;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a  b")),cljs.core.cst$kw$actual,t__18177__auto___24713,cljs.core.cst$kw$message,null], null));
+}catch (e24805){var t__18792__auto___24825 = e24805;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a  b")),cljs.core.cst$kw$actual,t__18792__auto___24825,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto___24714 = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space(" a b ");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto___24826 = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space(" a b ");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto___24715 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto___24714);
-if(cljs.core.truth_(result__18133__auto___24715)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," a b ")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto___24714),cljs.core.cst$kw$message,null], null));
+var result__18748__auto___24827 = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto___24826);
+if(cljs.core.truth_(result__18748__auto___24827)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," a b ")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto___24826),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," a b ")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto___24714);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," a b ")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto___24826);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-}catch (e24694){var t__18177__auto___24716 = e24694;
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," a b ")),cljs.core.cst$kw$actual,t__18177__auto___24716,cljs.core.cst$kw$message,null], null));
+}catch (e24806){var t__18792__auto___24828 = e24806;
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space," a b ")),cljs.core.cst$kw$actual,t__18792__auto___24828,cljs.core.cst$kw$message,null], null));
 }
-try{var values__18132__auto__ = cljs.core._conj((function (){var x__9201__auto__ = wheel.string.core.no_space("a\nb");
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+try{var values__18747__auto__ = cljs.core._conj((function (){var x__9200__auto__ = wheel.string.core.no_space("a\nb");
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),"ab");
-var result__18133__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18132__auto__);
-if(cljs.core.truth_(result__18133__auto__)){
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a\nb")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18132__auto__),cljs.core.cst$kw$message,null], null));
+var result__18748__auto__ = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core._EQ_,values__18747__auto__);
+if(cljs.core.truth_(result__18748__auto__)){
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$pass,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a\nb")),cljs.core.cst$kw$actual,cljs.core.cons(cljs.core._EQ_,values__18747__auto__),cljs.core.cst$kw$message,null], null));
 } else {
-cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a\nb")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9201__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18132__auto__);
-return cljs.core._conj(cljs.core.List.EMPTY,x__9201__auto__);
+cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$fail,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a\nb")),cljs.core.cst$kw$actual,cljs.core._conj((function (){var x__9200__auto__ = cljs.core.cons(cljs.core.cst$sym$_EQ_,values__18747__auto__);
+return cljs.core._conj(cljs.core.List.EMPTY,x__9200__auto__);
 })(),cljs.core.cst$sym$not),cljs.core.cst$kw$message,null], null));
 }
 
-return result__18133__auto__;
-}catch (e24695){var t__18177__auto__ = e24695;
-return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a\nb")),cljs.core.cst$kw$actual,t__18177__auto__,cljs.core.cst$kw$message,null], null));
+return result__18748__auto__;
+}catch (e24807){var t__18792__auto__ = e24807;
+return cljs.test.do_report(new cljs.core.PersistentArrayMap(null, 4, [cljs.core.cst$kw$type,cljs.core.cst$kw$error,cljs.core.cst$kw$expected,cljs.core.list(cljs.core.cst$sym$_EQ_,"ab",cljs.core.list(cljs.core.cst$sym$no_DASH_space,"a\nb")),cljs.core.cst$kw$actual,t__18792__auto__,cljs.core.cst$kw$message,null], null));
 }});
 
-wheel.string.core._QMARK__QMARK_no_space.cljs$lang$var = new cljs.core.Var(function(){return wheel.string.core._QMARK__QMARK_no_space;},cljs.core.cst$sym$wheel$string$core_SLASH__QMARK__QMARK_no_DASH_space,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$string$core,cljs.core.cst$sym$_QMARK__QMARK_no_DASH_space,"/Users/davidmeister/.boot/cache/tmp/Users/davidmeister/privacy-policy/19ie/k5ld58/index.html.out/wheel/string/core.cljc",20,1,15,15,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.string.core._QMARK__QMARK_no_space)?wheel.string.core._QMARK__QMARK_no_space.cljs$lang$test:null)]));
+wheel.string.core._QMARK__QMARK_no_space.cljs$lang$var = new cljs.core.Var(function(){return wheel.string.core._QMARK__QMARK_no_space;},cljs.core.cst$sym$wheel$string$core_SLASH__QMARK__QMARK_no_DASH_space,cljs.core.PersistentHashMap.fromArrays([cljs.core.cst$kw$ns,cljs.core.cst$kw$name,cljs.core.cst$kw$file,cljs.core.cst$kw$end_DASH_column,cljs.core.cst$kw$column,cljs.core.cst$kw$line,cljs.core.cst$kw$end_DASH_line,cljs.core.cst$kw$arglists,cljs.core.cst$kw$doc,cljs.core.cst$kw$test],[cljs.core.cst$sym$wheel$string$core,cljs.core.cst$sym$_QMARK__QMARK_no_DASH_space,"/home/circleci/.boot/cache/tmp/home/circleci/repo/4e/-1zzjnu/index.html.out/wheel/string/core.cljc",20,1,15,15,cljs.core.List.EMPTY,null,(cljs.core.truth_(wheel.string.core._QMARK__QMARK_no_space)?wheel.string.core._QMARK__QMARK_no_space.cljs$lang$test:null)]));
