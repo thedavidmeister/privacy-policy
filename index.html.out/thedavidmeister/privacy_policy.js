@@ -6,14 +6,14 @@ goog.require('hoplon.core');
 goog.require('javelin.core');
 thedavidmeister.privacy_policy.policy = (function thedavidmeister$privacy_policy$policy(var_args){
 var args__9531__auto__ = [];
-var len__9524__auto___19038 = arguments.length;
-var i__9525__auto___19039 = (0);
+var len__9524__auto___22852 = arguments.length;
+var i__9525__auto___22853 = (0);
 while(true){
-if((i__9525__auto___19039 < len__9524__auto___19038)){
-args__9531__auto__.push((arguments[i__9525__auto___19039]));
+if((i__9525__auto___22853 < len__9524__auto___22852)){
+args__9531__auto__.push((arguments[i__9525__auto___22853]));
 
-var G__19040 = (i__9525__auto___19039 + (1));
-i__9525__auto___19039 = G__19040;
+var G__22854 = (i__9525__auto___22853 + (1));
+i__9525__auto___22853 = G__22854;
 continue;
 } else {
 }
@@ -24,11 +24,11 @@ var argseq__9532__auto__ = ((((0) < args__9531__auto__.length))?(new cljs.core.I
 return thedavidmeister.privacy_policy.policy.cljs$core$IFn$_invoke$arity$variadic(argseq__9532__auto__);
 });
 
-thedavidmeister.privacy_policy.policy.cljs$core$IFn$_invoke$arity$variadic = (function (p__19035){
-var map__19036 = p__19035;
-var map__19036__$1 = ((((!((map__19036 == null)))?((((map__19036.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__19036.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__19036):map__19036);
-var entity_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19036__$1,cljs.core.cst$kw$entity_DASH_name);
-var entity_description = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__19036__$1,cljs.core.cst$kw$entity_DASH_description);
+thedavidmeister.privacy_policy.policy.cljs$core$IFn$_invoke$arity$variadic = (function (p__22849){
+var map__22850 = p__22849;
+var map__22850__$1 = ((((!((map__22850 == null)))?((((map__22850.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__22850.cljs$core$ISeq$)))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__22850):map__22850);
+var entity_name = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__22850__$1,cljs.core.cst$kw$entity_DASH_name);
+var entity_description = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__22850__$1,cljs.core.cst$kw$entity_DASH_description);
 if(cljs.core.truth_(entity_name)){
 } else {
 throw (new Error("Assert failed: entity-name"));
@@ -44,7 +44,7 @@ return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMP
 
 thedavidmeister.privacy_policy.policy.cljs$lang$maxFixedArity = (0);
 
-thedavidmeister.privacy_policy.policy.cljs$lang$applyTo = (function (seq19034){
-return thedavidmeister.privacy_policy.policy.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq19034));
+thedavidmeister.privacy_policy.policy.cljs$lang$applyTo = (function (seq22848){
+return thedavidmeister.privacy_policy.policy.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq22848));
 });
 
