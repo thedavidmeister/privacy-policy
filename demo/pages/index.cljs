@@ -6,4 +6,5 @@
 (h/html
  (h/body
   (thedavidmeister.privacy-policy/policy
-   :entity-name "<entity-name>")))
+   :entity-name "<entity-name>"
+   :entity-description "<entity-description>")))
