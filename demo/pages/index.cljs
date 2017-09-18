@@ -1,7 +1,8 @@
 (ns ^{:hoplon/page "index.html"} pages.index
  (:require
   [hoplon.core :as h]
-  thedavidmeister.privacy-policy))
+  thedavidmeister.privacy-policy
+  taoensso.timbre))
 
 (defn placeholder
  [k]
@@ -13,8 +14,9 @@
  (h/body
   (let [ks [:entity-name :entity-description]]
    (thedavidmeister.privacy-policy/policy
-    (zipmap
-     ks
-     (map
-      placeholder
-      ks))))))
+    (taoensso.timbre/spy
+     (zipmap
+      ks
+      (map
+       placeholder
+       ks)))))))
