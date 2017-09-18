@@ -6,17 +6,16 @@
 
 (defn placeholder
  [k]
- (h/span
-  :css {:color "red"}
-  "<" (name k) ">"))
+ #(h/span
+   :css {:color "red"}
+   "<" (name k) ">"))
 
 (h/html
  (h/body
   (let [ks [:entity-name :entity-description]]
    (thedavidmeister.privacy-policy/policy
-    (taoensso.timbre/spy
-     (zipmap
-      ks
-      (map
-       placeholder
-       ks)))))))
+    (zipmap
+     ks
+     (map
+      placeholder
+      ks))))))
