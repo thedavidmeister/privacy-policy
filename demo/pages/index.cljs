@@ -3,8 +3,18 @@
   [hoplon.core :as h]
   thedavidmeister.privacy-policy))
 
+(defn placeholder
+ [k]
+ (h/span
+  :css {:color "red"}
+  "<" (name k) ">"))
+
 (h/html
  (h/body
-  (thedavidmeister.privacy-policy/policy
-   :entity-name "<entity-name>"
-   :entity-description "<entity-description>")))
+  (let [ks [:entity-name :entity-description]]
+   (thedavidmeister.privacy-policy/policy
+    (zipmap
+     ks
+     (map
+      placeholder
+      ks))))))
