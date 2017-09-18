@@ -3,14 +3,18 @@
   [hoplon.core :as h]
   [javelin.core :as j]
   wheel.legalese.hoplon
-  wheel.link.hoplon))
+  wheel.link.hoplon
+  [cljs.test :refer-macros [deftest is]]))
 
 (h/defelem policy
  [{:keys [entity-name
           entity-description
+
+          contact-details
+          unsubscribe-email-address
+
           credit-enquiry-acknowledgement-turnaround
           credit-enquiry-turnaround
-          privacy-email-address
           correction-acknowledgement-turnaround
           correction-turnaround
           complaint-acknowledgement-turnaround
@@ -74,7 +78,7 @@
    (h/p "We will not ask you to disclose sensitive information about you unless it is reasonably necessary for providing our services to you. However, if you elect to provide unsolicited sensitive information, it may be captured and stored.")
 
    (h/h2 "Marketing")
-   (h/p "If you subscribe to our mailing list, or create an account with our application, we may use your contact details to send you marketing materials. You may opt-out at any time by notice by email to " (privacy-email-address) ", or through the unsubscribe link found in all marketing emails we send.")
+   (h/p "If you subscribe to our mailing list, or create an account with our application, we may use your contact details to send you marketing materials. You may opt-out at any time by notice by email to " (unsubscribe-email-address) ", or through the unsubscribe link found in all marketing emails we send.")
    (h/p "We use a third party system to manage our marketing campaigns, and we may disclose your contact details to our service providers for this purpose. Our service providers are not permitted to sell, use or disclose your contact details or contact you for any other purpose unless required by law.")
    (h/p "We may include third party offers in marketing materials we send to you.")
    (h/p "We do not sell, trade or rent your contact details or any other personal information to any third party.")
@@ -172,4 +176,47 @@
    (h/h2 "What to do if you are not satisfied with the way we handle your personal information?")
    (h/p "If you are dissatisfied with how we have dealt with your personal information, or you have a complaint about our compliance with the " (privacy-act) ", please contact us.")
    (h/p "We will acknowledge your complaint within " (complaint-acknowledgement-turnaround) ", and provide you with a decision on your complaint within " (complaint-turnaround) ".")
-   (h/p "If you are dissatisfied with the response of our complaints officer you may make a complaint to the Privacy Commissioner which can be contacted via the Office of the Australian Information Commissioner website (" (oaic-link) ") or on " (oaic-phone) ".")]))
+   (h/p "If you are dissatisfied with the response of our complaints officer you may make a complaint to the Privacy Commissioner which can be contacted via the Office of the Australian Information Commissioner website (" (oaic-link) ") or on " (oaic-phone) ".")
+
+   (h/h2 "Further information")
+   (h/p "You may request further information about the way we manage your personal information by contacting us.")
+
+   (h/h2 "How to contact us about this privacy policy")
+   (contact-details)
+
+   (h/h2 "Change in our privacy policy")
+   (h/p "We are constantly reviewing all of our policies and attempt to keep up to date with market expectations.  Technology is constantly changing, as is the law and market \"best practices\". ")
+   (h/p "As a consequence we may change this privacy policy from time to time or as the need arises.")]))
+
+; TESTS
+
+(deftest ??policy
+ (let [p (policy)]
+  (is (= ["Estimate Work’s Privacy Policy"]
+       (wheel.dom.traversal/find-text p "h1")))
+  (is (= ["What is our commitment to the protection of your personal information?"
+          "We are committed to protecting your privacy."
+          "Personal information"
+          "Credit information"
+          "Credit Card Information"
+          "Sensitive information"
+          "Marketing"
+          "Social Media"
+          "Knowledge Articles"
+          "Anonymity and Pseudonymity"
+          "Overseas Data Disclosure"
+          "Why we collect your personal information"
+          "Do we use browser data storage (e.g. cookies)?"
+          "IP addresses"
+          "Do we disclose your personal information?"
+          "Updating your personal information"
+          "Access and correction to your personal information"
+          "Using government identifiers"
+          "How safe and secure is your personal information that we hold?"
+          "What to do if you are not satisfied with the way we handle your personal information?"
+          "Further information"
+          "How to contact us about this privacy policy"
+          "Change in our privacy policy"]
+       (wheel.dom.traversal/find-text p "h2")))
+  (is (= ["Stripe"]
+       (wheel.dom.traversal/find-text p "h3")))))
