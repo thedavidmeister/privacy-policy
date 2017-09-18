@@ -1,4 +1,6 @@
-(ns thedavidmeister.privacy-policy)
+(ns thedavidmeister.privacy-policy
+ (:require
+  [hoplon.core :as h]))
 
 (defn policy
  [& {:keys [entity-name]}]
