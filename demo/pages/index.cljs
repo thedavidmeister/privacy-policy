@@ -12,7 +12,13 @@
 
 (h/html
  (h/body
-  (let [ks [:entity-name :entity-description]]
+  (let [ks [:entity-name
+            :entity-description
+            :credit-enquiry-acknowledgement-turnaround
+            :credit-enquiry-turnaround
+            :privacy-email-address
+            :correction-acknowledgement-turnaround
+            :correction-turnaround]]
    (thedavidmeister.privacy-policy/policy
     (zipmap
      ks
