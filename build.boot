@@ -11,7 +11,8 @@
    [hoplon "7.1.0-SNAPSHOT"]
    [org.clojure/clojurescript "1.9.908"]
    [adzerk/boot-cljs "2.1.3" :scope "test"]
-   [adzerk/bootlaces "0.1.13" :scope "test"]])
+   [adzerk/bootlaces "0.1.13" :scope "test"]
+   [crisptrutski/boot-cljs-test "0.3.4" :scope "test"]])
 
 (task-options!
  pom {:project project
